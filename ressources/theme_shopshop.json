@@ -1,0 +1,65 @@
+{
+  "name": "ShopShop",
+  "dataColors": [
+    "#CC0000",
+    "#3FADA1",
+    "#E8A33D",
+    "#CC2047",
+    "#2B2B2B",
+    "#7FC9C0",
+    "#F0C589",
+    "#9A9A9A"
+  ],
+  "background": "#F8F9FA",
+  "foreground": "#434343",
+  "tableAccent": "#CC0000",
+  "good": "#3FADA1",
+  "neutral": "#E8A33D",
+  "bad": "#CC0000",
+  "maximum": "#3FADA1",
+  "center": "#E8A33D",
+  "minimum": "#CC0000",
+  "textClasses": {
+    "title": {
+      "color": "#CC0000",
+      "fontSize": 16,
+      "fontFace": "Segoe UI Semibold"
+    },
+    "header": {
+      "color": "#2B2B2B",
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold"
+    },
+    "label": {
+      "color": "#434343",
+      "fontSize": 10,
+      "fontFace": "Segoe UI"
+    },
+    "callout": {
+      "color": "#CC0000",
+      "fontSize": 32,
+      "fontFace": "Segoe UI Semibold"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#DADDE1" } }, "radius": 4 }],
+        "visualHeader": [{ "show": false }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#2B2B2B" } }, "fontSize": 12, "alignment": "left" }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#CC0000" } }, "fontSize": 28 }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#9A9A9A" } }, "fontSize": 10 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F8F9FA" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
